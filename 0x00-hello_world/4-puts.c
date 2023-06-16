@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - Prints programming is like building.
- * return: always 0 to give success
+ * Return: always 0 to give success
  */
 int main(void)
 {
