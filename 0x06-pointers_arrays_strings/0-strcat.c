@@ -5,7 +5,7 @@
   *@src: input value
   *Return: always 0
   */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
