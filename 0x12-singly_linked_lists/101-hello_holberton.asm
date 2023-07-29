@@ -1,7 +1,7 @@
 extern printf;
 
 section .data; Data section, initialized variables
-	msg: db "Hello, Holberton\n", 0;
+	msg: db "Hello, Holberton", 0;
 	format: db "%s", 10, 0; The printf format, "\n", '0'
 
 section .text; code section here
@@ -11,7 +11,7 @@ section .text; code section here
 
 	mov rdi, format
 	mov rsi, msg
-	mov rax,0;
+	mov rax,1;
 	call printf;
 
 	pop rbp; restore stack
