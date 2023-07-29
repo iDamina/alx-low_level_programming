@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <stdio.h>
 /**
-  *first - prints a sentence before the main
+  *print_statement - prints a sentence before the main
   *function is executed
   */
 void print_statement(void)
