@@ -1,10 +1,10 @@
 extern printf;
 
-section:data; Data section, initialized variables
+section .data; Data section, initialized variables
 	msg: db "Hello, Holberton\n", 0;
 	format: db "%s", 10, 0; The printf format, "\n", '0'
 
-section:text; code section here
+section .text; code section here
 	global main; the standard gcc entry point
 	main:;
 	push rbp;
