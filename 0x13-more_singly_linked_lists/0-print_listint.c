@@ -11,12 +11,12 @@ size_t print_listint(const listint_t *h)
 	/* Declaring number of size size_t*/
 	size_t number = 0;
 
-	if (h == NULL)
-		return (0);
-
 	/*check for the element to print*/
 	while (h)
 	{
+		if (!h)
+			return (0);
+
 		printf("%d \n", h->n);
 		h = h->next;
 		number++;
