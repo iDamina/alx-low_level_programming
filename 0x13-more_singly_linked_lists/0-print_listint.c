@@ -9,13 +9,13 @@
 size_t print_listint(const listint_t *h)
 {
 	/* Declaring number of size size_t*/
-	size_t num = 0;
+	size_t number = 0;
 	/*check for the element to print*/
 	while (h)
 	{
 		printf("%d \n", h->n);
-		num++; /*increment number*/
 		h = h->next;
+		number++; /*increment number*/
 	}
-	return (num);
+	return (number);
 }
