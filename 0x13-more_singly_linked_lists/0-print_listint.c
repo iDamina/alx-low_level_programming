@@ -14,9 +14,6 @@ size_t print_listint(const listint_t *h)
 	/*check for the element to print*/
 	while (h)
 	{
-		if (!h)
-			return (0);
-
 		number++;
 		printf("%d \n", h->n);
 		h = h->next;
