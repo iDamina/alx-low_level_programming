@@ -8,10 +8,8 @@
   */
 size_t print_listint(const listint_t *h)
 {
-	/* Declaring number of size size_t*/
 	size_t number = 0;
 
-	/*check for the element to print*/
 	while (h)
 	{
 		if (h == NULL)
