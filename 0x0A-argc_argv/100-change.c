@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	  *checking arguments passed if its
 	  *not exactly 1 then return error
 	 */
-	if (argc != 2)
+	if (argc < 2)
 	{
 		printf("Error\n");
 		return (1);
