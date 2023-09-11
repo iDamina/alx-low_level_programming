@@ -38,6 +38,6 @@ int main(int argc, char *argv[])
 	}
 	/* adding the second and third value after mul */
 	mul = atol(argv[1]) * atol(argv[2]);
-	printf("%lu\n", mul);
+	printf("%ld\n", mul);
 	return (0);
 }
