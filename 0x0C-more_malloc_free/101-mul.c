@@ -39,5 +39,5 @@ int main(int argc, char *argv[])
 	/* adding the second and third value after mul */
 	mul = atol(argv[1]) * atol(argv[2]);
 	printf("%ld\n", mul);
-	return (0);
+	return (mul);
 }
