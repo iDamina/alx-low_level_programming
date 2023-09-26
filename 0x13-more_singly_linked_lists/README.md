@@ -3,13 +3,13 @@
 Here, we solve more issues relating to singly
 linked list.
 issues like
--printing all elements in the list
--returning the number of elements in a linked listint_t list.
--adds a new node at the beginning of a listint_t list.
--adds a new node at the end of a listint_t list.
-- frees a listint_t list.
--deletes the head node of a listint_t linked list, and returns the head node’s data (n).
--returns the nth node of a listint_t linked list.
--returns the sum of all the data (n) of a listint_t linked list.
--inserts a new node at a given position.
--deletes the node at index index of a listint_t linked list.
+### printing all elements in the list
+### returning the number of elements in a linked listint_t list.
+### adds a new node at the beginning of a listint_t list.
+1. adds a new node at the end of a listint_t list.
+1. frees a listint_t list.
+1. deletes the head node of a listint_t linked list, and returns the head node’s data (n).
+1. returns the nth node of a listint_t linked list.
+1. returns the sum of all the data (n) of a listint_t linked list.
+1. inserts a new node at a given position.
+1. deletes the node at index index of a listint_t linked list.
