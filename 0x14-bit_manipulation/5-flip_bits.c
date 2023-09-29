@@ -11,12 +11,10 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	unsigned long int result = n ^ m; /* xor function */
 
 	/* count the number of set bits (1s) in result (XOR) */
-	for (int i = 0; i < sizeof(unsigned long int) * 8; i++)
+	while (result != '\0')
 	{
-		if (result & (1ul << i))
-		{
-			count++; /* increment count */
-		}
+		count = count + (result & 1);
+		result >>= 1;
 	}
 
 	return (count); /* return the count */
